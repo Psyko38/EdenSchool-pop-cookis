@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Inter;
+}
+
+body {
+	height: 100vh;
+}
+
+.page {
+	position: relative;
+	display: flex;
+	height: 100%;
+}
+
+.red,
+.blue,
+.green {
+	position: absolute;
+	height: 500px;
+	width: 500px;
+	border-radius: 50px;
+}
+
+.red {
+	background: red;
+}
+
+.blue {
+	background: blue;
+	top: 40px;
+	left: 40px;
+}
+
+.green {
+	background: green;
+	top: 80px;
+	left: 80px;
+}
+
+.popup {
+	display: flex;
+	position: absolute;
+	height: 50px;
+	width: 180px;
+	background: #d9d9d9;
+	bottom: 25px;
+    border-radius: 15px;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+}
+
+.buton {
+	display: flex;
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+	justify-content: space-between;
+}
+
+.no {
+	color: rgb(0, 255, 213);
+	border: rgb(0, 255, 213) 1px solid;
+	border-radius: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.yes {
+	background: #1a81e1;
+	color: white;
+    border: transparent;
+	border: 1A81E1 1px solid;
+	border-radius: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
